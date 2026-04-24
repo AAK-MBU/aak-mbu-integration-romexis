@@ -2,6 +2,14 @@
 
 <!-- version list -->
 
+## v1.0.2 (2026-04-24)
+
+### Bug Fixes
+
+- Test version update
+  ([`23969ed`](https://github.com/AAK-MBU/aak-mbu-integration-romexis/commit/23969edda8cf29bcec50c135d1f1f27d0580e269))
+
+
 ## v1.0.1 (2026-04-24)
 
 ### Bug Fixes
