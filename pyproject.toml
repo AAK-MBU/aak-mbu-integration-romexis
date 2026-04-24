@@ -23,6 +23,9 @@ version_variable = "pyproject.toml:project.version"
 version_source = "commit"
 commit_parser = "conventional"
 
+[tool.semantic_release.version_toml]
+files = ["pyproject.toml:project.version"]
+
 [tool.semantic_release.commit_parser_options]
 allowed_types = ["feat", "fix", "perf", "refactor"]
 minor_types = ["feat"]
