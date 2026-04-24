@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aak-mbu-integration-romexis"
+version = "0.1.0"
+description = "Romexis integration utilities"
+readme = "README.md"
+dependencies = [
+    "requests"
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.semantic_release]
+branch = "main"
+version_variable = "pyproject.toml:project.version"
+version_source = "commit"
+commit_parser = "conventional"
+
+[tool.semantic_release.commit_parser_options]
+allowed_types = ["feat", "fix", "perf", "refactor"]
+minor_types = ["feat"]
+patch_types = ["fix", "perf"]
+
+[tool.semantic_release.changelog]
+file = "CHANGELOG.md"
+
+[tool.semantic_release.remote]
+name = "origin"
