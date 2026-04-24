@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "aak-mbu-integration-romexis"
-version = "0.1.0"
+version = "1.0.1"
 description = "Romexis integration utilities"
 readme = "README.md"
 dependencies = [

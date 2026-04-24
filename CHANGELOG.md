@@ -2,6 +2,22 @@
 
 <!-- version list -->
 
+## v1.0.1 (2026-04-24)
+
+### Bug Fixes
+
+- Configure version updates correctly
+  ([`d735859`](https://github.com/AAK-MBU/aak-mbu-integration-romexis/commit/d7358595ed7b4a72d00baaba11822fa25a400a8c))
+
+- Correct version_toml configuration
+  ([`3c560bf`](https://github.com/AAK-MBU/aak-mbu-integration-romexis/commit/3c560bf44637234bafcaac107fbc93639b9271b2))
+
+### Documentation
+
+- Add README with workflow and commit guidelines
+  ([`f91d193`](https://github.com/AAK-MBU/aak-mbu-integration-romexis/commit/f91d19395cfd08047520266794fe48731a6c0da7))
+
+
 ## v1.0.0 (2026-04-24)
 
 ### Bug Fixes
