@@ -2,6 +2,14 @@
 
 <!-- version list -->
 
+## v1.1.0 (2026-04-28)
+
+### Features
+
+- Add database handler and helper functions
+  ([`7726c07`](https://github.com/AAK-MBU/aak-mbu-integration-romexis/commit/7726c07079ce59734215ecdd59091039e8590ba5))
+
+
 ## v1.0.2 (2026-04-24)
 
 ### Bug Fixes
